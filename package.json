@@ -1,0 +1,33 @@
+{
+    "name": "pouch-authentication-with-coreui",
+    "version": "1.0.0",
+    "description": "PouchDB Authentication Example with CoreUI",
+    "main": "index.js",
+    "author": "Mike Duran-Mitchell",
+    "scripts": {
+      "client": "cd client && yarn start",
+      "server": "nodemon server.js",
+      "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+    },
+    "dependencies": {
+      "dotenv": "^4.0.0",
+      "express": "^4.16.2",
+      "morgan": "^1.9.0",
+      "nano": "^6.4.2",
+      "pouchdb-authentication": "^1.1.0",
+      "nodemon": "^1.14.11"
+    },
+    "devDependencies": {
+      "concurrently": "^3.5.1",
+      "sw-precache-webpack-plugin": "^0.11.4"
+    },
+    "keywords": [
+      "node",
+      "express",
+      "create-react-app",
+      "coreui",
+      "pouchdb",
+      "couchdb"
+    ]
+  }
+  
